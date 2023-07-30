@@ -412,7 +412,7 @@ nav{
     /* background: #000; */
 }
 .footer-top{
-    width:1450px;
+    width:1550px;
     height: 620px;
     background: #4230dd;
     color: #fff;
@@ -448,13 +448,14 @@ nav{
     height: 230px;
 }
 .footer-mid{
+    width:1550px;
     margin-top: -230px;
 }
 
 /* footer-bottom */
 
 .footer-bottom{
-    width: 1450px;
+    width: 1550px;
     height: 1100px;
     background: #06022b;
     margin: -3.5px;
