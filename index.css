@@ -1,5 +1,7 @@
 *{
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 body{
     /* height: 10000px; */
@@ -12,7 +14,7 @@ nav{
     align-items: center;
     background: #4230DDEC;
     height: 150px;
-    width: 98%;
+    width: 1530px;
     color: rgb(245, 118, 118);
 /*     overflow: hidden; */
     position: fixed;
@@ -90,12 +92,12 @@ nav{
 
 .hero-sec{
     top: 150px;
-    height: 90vh;
+    height: 100vh;
     max-height: 100vh;
     min-height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1450px;
+    width: 1530px;
     background: #1905fd;
     
     padding: 40px;
@@ -364,7 +366,7 @@ nav{
 /* help-section */
 
 .help-section{
-    width: 100%;
+    width: 1530px;
     height: 275px;
     display: flex;
     justify-content: center;
@@ -403,16 +405,19 @@ nav{
 
 /* footer */
 
+.footer{
+    width: 1530px;
+}
 .footer-top-cont{
-    padding-left: 220px;
-    padding-right: 180px;
+    /* padding-left: 220px;
+    padding-right: 180px; */
 }
 .cont-left{
     width: 800px;
     /* background: #000; */
 }
 .footer-top{
-    width:1550px;
+    width:1530px;
     height: 620px;
     background: #4230dd;
     color: #fff;
@@ -444,7 +449,7 @@ nav{
 }
 
 .footer-mid img{
-    width:1550px;
+    width:1530px;
     height: 230px;
 }
 .footer-mid{
@@ -476,6 +481,7 @@ nav{
 }
 .bottom-inner-top img{
     width: 212px;
+    margin: 10px;
 }
 .bottom-inner-down{
     display: flex;
@@ -665,6 +671,15 @@ nav{
 }
 @media(max-width:770px) {
 
+    nav{
+        width: 100%;
+    }
+    .main-frame{
+        width: 240%;
+    }
+    .first-stone{
+
+    }
     .top{
         font-size: 18px;
     }
@@ -710,6 +725,7 @@ nav{
     .learn-more-card
     {
         height: 150px;
+        width: 70%;
     }
 
     .btn{
@@ -763,6 +779,50 @@ nav{
         font-size: 30px;
     }
 
+    /* --------------------- */
+    .first-stone{
+        height: 150vh;
+        width: 200vw;
+        margin-bottom: 50vh;
+    }
+
+    .first-stone ul li{
+        font-size: 25px;
+    }
+    .first-stone h2{
+        font-size: 45px;
+    }
+    .second-stone{
+        height: 110vh;
+        width: 200vw;
+        margin-bottom: 50vh;
+    }
+    .second-stone ul li{
+        font-size: 25px;
+    }
+    .third-stone{
+        height: 100vh;
+        width: 200vw;
+        margin-bottom: 50vh;
+    }
+    .third-stone ul li{
+        font-size: 25px;
+    }
+   .feedback{
+    width: 200vw;
+    height: 120vh;
+    position: relative;
+    border: 1px solid rgb(203, 203, 203);
+    margin-bottom: 10vh;
+   }
+   .footer{
+    margin-top: 180vh;
+    position: relative;
+   }
+   .f4{
+    margin-bottom: 30vh;
+   }
+
     
 }
 @media(max-width:480px) {
@@ -789,7 +849,7 @@ nav{
     }
     .learn-more-card{
         width: 90%;
-        height: 200px;
+        height: 70vh;
     }
     .learn-more-card div p{
         margin-top: 50px;
@@ -808,6 +868,8 @@ nav{
     }
     .learn-more-card div div {
         text-align: center;
+        width: 70%;
+        height: 50%;
     }
 
     .card-text{
@@ -853,23 +915,64 @@ nav{
     .hero-sec{
         padding-top: 300px;
     }
-.top h1{
-    font-size: 75px;
-}
-.middle p{
-    font-size: 40px;
-}
-.bottom{
-    width: 700px;
-}
-.bottom  div img{
-    width: 200%;
-    height: 150%;
-}
-.bottom  div h3{
-    font-size: 30px;
-}
-   
+    .top h1{
+        font-size: 75px;
+    }
+    .middle p{
+        font-size: 40px;
+    }
+    .bottom{
+        width: 700px;
+    }
+    .bottom  div img{
+        width: 200%;
+        height: 150%;
+    }
+    .bottom  div h3{
+        font-size: 30px;
+    }
+    .first-stone{
+        height: 150vh;
+        width: 250vw;
+        margin-bottom: 50vh;
+    }
+
+    .first-stone ul li{
+        font-size: 25px;
+    }
+    .first-stone h2{
+        font-size: 45px;
+    }
+    .second-stone{
+        height: 110vh;
+        width: 250vw;
+        margin-bottom: 50vh;
+    }
+    .second-stone ul li{
+        font-size: 25px;
+    }
+    .third-stone{
+        height: 100vh;
+        width: 250vw;
+        margin-bottom: 50vh;
+    }
+    .third-stone ul li{
+        font-size: 25px;
+    }
+   .feedback{
+    width: 250vw;
+    height: 100vh;
+    position: relative;
+    border: 1px solid rgb(203, 203, 203);
+    margin-bottom: 10vh;
+   }
+   .footer{
+    margin-top: 180vh;
+    position: relative;
+   }
+   .f4{
+    margin-bottom: 100vh;
+   }
     
 }
 
