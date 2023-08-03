@@ -245,14 +245,15 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 430px;
-    width: 1040px;
+    height: 630px;
+    width: 1140px;
     padding: 80px;
     padding-top: 60px;
     padding-bottom: 100px;
     background: #F2F2FF;
     margin: auto;
     border-radius: 20px;
+    margin-bottom: 100px;
 }
 
 .text h2{
@@ -281,8 +282,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 190px;
-    width: 1040px;
+    height: 290px;
+    width: 1140px;
     padding: 80px;
     padding-top: 60px;
     padding-bottom: 100px;
@@ -325,8 +326,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 200px;
-    width: 1040px;
+    height: 300px;
+    width: 1140px;
     padding: 80px;
     padding-top: 60px;
     padding-bottom: 100px;
