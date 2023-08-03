@@ -536,7 +536,9 @@ nav{
 .fin-bot h4{
    color: #fff;
 }
-
+.footer{
+    background: #000;
+}
 
 /* media query */
 
